@@ -35,7 +35,7 @@ Known limitation shown by the demo itself: a first name that is neither in the l
 - Microsoft Presidio (spaCy `en_core_web_lg`), GLiNER (`gretelai/gretel-gliner-bi-small-v1.0`, fp32 and dynamic int8);
 - `nvidia/gliner-PII` only as a reference: it was trained on Nemotron-PII, so its Nemotron numbers are contaminated.
 
-Data: NVIDIA Nemotron-PII (CC BY 4.0) health domains, planned full test (7, 058 synthetic documents), three disjoint
+Data: NVIDIA Nemotron-PII (CC BY 4.0) health domains, planned full test (7,058 synthetic documents), three disjoint
 partitions (mean ± sd); Gretel `pii-masking-en-v1` (Apache-2.0) health domains (403 documents) as an out-of-distribution check.
 NAVAJO-v2 rules and its name lexicon were developed only on the Nemotron train split. Thresholds of Presidio and GLiNER were
 picked on 300 train documents. Metrics: character recall of HIPAA Safe Harbor identifiers, precision, F2, full-entity recall,
