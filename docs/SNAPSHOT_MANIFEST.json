@@ -1,0 +1,205 @@
+{
+  "source_snapshot_utc": "2026-10-29T07:07:38.882056+00:00",
+  "files": [
+    {
+      "path": ".github/workflows/release.yml",
+      "bytes": 472,
+      "sha256": "f87bc17fe5282fa46bfab41ceb0b5bde29e2e722d8f489deb0bfdaf62a2c08ab"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 135,
+      "sha256": "22d4eaee305e67584737d9b3ca7f7c1bb8c30cb15b2e8e3875d3d5cfe09ed358"
+    },
+    {
+      "path": "assets/lexicon_train.json",
+      "bytes": 33281,
+      "sha256": "7ddee77bd2e466ac4f51aacf152632faef0bb5c96eed0351281ad09d80582f3e"
+    },
+    {
+      "path": "assets/README.md",
+      "bytes": 439,
+      "sha256": "871a57a245d42dad214c6588a59fc7011eb843296ec0e22331e8f49f1e5f79d0"
+    },
+    {
+      "path": "bench/common.py",
+      "bytes": 4123,
+      "sha256": "6326808877e3ce07c232bc9270b4367db4edf7d4257cff59623b38f8aade9947"
+    },
+    {
+      "path": "bench/dev_v1.py",
+      "bytes": 616,
+      "sha256": "8e5c2b51e1ba4b4e2b33af3a1071e39c7cf97dd1f70d906f1ad8f4ecb22026bb"
+    },
+    {
+      "path": "bench/dev_v2.py",
+      "bytes": 945,
+      "sha256": "915e30c180feb2e6b73281f5824d43d1afa424039c8a334c83c03a75c85e9b03"
+    },
+    {
+      "path": "bench/job.sh",
+      "bytes": 2630,
+      "sha256": "8440b773660a4ad5c2f78076f3b2efb93a661d1d667cf2f0e3191acb2848d422"
+    },
+    {
+      "path": "bench/navajo_v2.py",
+      "bytes": 9751,
+      "sha256": "74498792a5471ec7c86749d422a41a0cd6df57780f580446205523acad78a075"
+    },
+    {
+      "path": "bench/run_method.py",
+      "bytes": 5661,
+      "sha256": "67e951e8eda02561b29ac3f98072c8ba2771c7aa372f865538dd01f6c88fec51"
+    },
+    {
+      "path": "bench/score.py",
+      "bytes": 5209,
+      "sha256": "3cfc1ca8d4db125dd6114d29d85687fd36967bc71e308efdabb012d0c380af2d"
+    },
+    {
+      "path": "demo/conftest.py",
+      "bytes": 79,
+      "sha256": "a7fdcef9df19ebd2fbe8e30a944b3158583aa21593e99189a399dc12b66e0806"
+    },
+    {
+      "path": "demo/gateway.py",
+      "bytes": 5081,
+      "sha256": "d9633ca6104ccf561a675ad3104f93a9b54a8cdc68543ddcc64d9285a435a643"
+    },
+    {
+      "path": "demo/make_sample.py",
+      "bytes": 2569,
+      "sha256": "4a2bc53fa8539c4e50378046b5f96ed29ab4874216a7a5e760872d37c4f6ae2e"
+    },
+    {
+      "path": "demo/run_demo.py",
+      "bytes": 1404,
+      "sha256": "2d9283989f30b50620c82b1dff384b573c0656c7cb4ee66a33d3bf6958c03c76"
+    },
+    {
+      "path": "demo/sample_bundle.json",
+      "bytes": 3064,
+      "sha256": "f188f090b825503e98d9ca685361aea87abfae7baef2ff6c814661c81ca86b84"
+    },
+    {
+      "path": "demo/test_gateway.py",
+      "bytes": 1218,
+      "sha256": "5443d13c1ca15d0cc748fc08a05e4b3db5021db2c4c669f25a6facf2f9494b3e"
+    },
+    {
+      "path": "docs/PROJECT_STATUS.json",
+      "bytes": 257,
+      "sha256": "e882daacef2431f918380052b39f60e792fcfa168ebe4c8fbc09baf9481b2d2b"
+    },
+    {
+      "path": "docs/RESEARCH_PROTOCOL.md",
+      "bytes": 1019,
+      "sha256": "68d8a6ee01a9b892000e4b4b270da8c38d5ebe9fc504a708c576fe81b05f6b15"
+    },
+    {
+      "path": "experiments/LOG.md",
+      "bytes": 2396,
+      "sha256": "943bfe7d15650fd29459830de0b7f9f9ac520f5bf6676a7f8d543b2c35582d85"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1106,
+      "sha256": "3e678775bdc901ec198d173d64cffd4d5998a5491fd67899ce3067e93c842ab5"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 389,
+      "sha256": "9611e17d0d890ce4dc2194dc641db32d2fbb842ceb002101dd042e288ef36963"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4568,
+      "sha256": "04da8b61f052d925986dc675f0af29de902d6876c379835bc39064f00a3f08e3"
+    },
+    {
+      "path": "requirements-demo.txt",
+      "bytes": 7,
+      "sha256": "8004a972c3d5c274d8c808e8d8afe03b9aca8af8eebf3df4298f114d8008b754"
+    },
+    {
+      "path": "tools/check_release.py",
+      "bytes": 1341,
+      "sha256": "64ff3f8ad74db8a5fc1990965d366240f7930f599ab3113bc7e2a439226b1c3a"
+    },
+    {
+      "path": "tools/update_manifest.py",
+      "bytes": 649,
+      "sha256": "1f3fba6a0e3c5f0398450ef6ea6c2734fc2020264a0e6253fb0f10515b0e76df"
+    },
+    {
+      "path": "vendor/navajo_egp/__init__.py",
+      "bytes": 1522,
+      "sha256": "925307032bb394d3337563ab79728568c96bfa727625d2ca99296dab10aa2696"
+    },
+    {
+      "path": "vendor/navajo_egp/anonymizer.py",
+      "bytes": 5131,
+      "sha256": "487c015a77c9bbca3c5454666a94fe83cce783b0f02e7432dbe0a69f78d411f7"
+    },
+    {
+      "path": "vendor/navajo_egp/async_middleware.py",
+      "bytes": 3567,
+      "sha256": "082a046ea366b5d4ec07c02b3f65788c36a1102d4eae05ff4017430b1286fc50"
+    },
+    {
+      "path": "vendor/navajo_egp/detector.py",
+      "bytes": 8149,
+      "sha256": "6e08d108455dd26d9b8d03aeaf5db56f1bc688b644c28d3047e51cc8dd7ccf02"
+    },
+    {
+      "path": "vendor/navajo_egp/entities.py",
+      "bytes": 5790,
+      "sha256": "dec1556216c8ea0220c2061b85ec26840b9c4e19fc2cb5466126b8dabebaa601"
+    },
+    {
+      "path": "vendor/navajo_egp/exceptions.py",
+      "bytes": 601,
+      "sha256": "d1294d3178c5b9374ae15c0796ae472e23d3062d6d5310165cceebff21db626f"
+    },
+    {
+      "path": "vendor/navajo_egp/integrations/__init__.py",
+      "bytes": 34,
+      "sha256": "f9991c790eea820219af1e6ce6d771ba86a5433feafba0e423196cc14a834a83"
+    },
+    {
+      "path": "vendor/navajo_egp/integrations/anthropic_wrapper.py",
+      "bytes": 4274,
+      "sha256": "7bfa8a5411cbd148390c865fa4910359e747f78f698e15aa31cf47102905e008"
+    },
+    {
+      "path": "vendor/navajo_egp/integrations/langchain_wrapper.py",
+      "bytes": 4287,
+      "sha256": "7cfa5cec3b282b38cff989d53d250ebe4f277ca8a5c812da7a4df68b9eb29b23"
+    },
+    {
+      "path": "vendor/navajo_egp/integrations/openai_wrapper.py",
+      "bytes": 4042,
+      "sha256": "73286dee2e772385bb225de4bc394016be652e03d584cfb898821e1e55b4ff6e"
+    },
+    {
+      "path": "vendor/navajo_egp/middleware.py",
+      "bytes": 9634,
+      "sha256": "de5b429a157d280c86280b2b0f37c3ffa523e2505a71dc521770df6fd8e5e4de"
+    },
+    {
+      "path": "vendor/navajo_egp/p2pclaw.py",
+      "bytes": 10930,
+      "sha256": "90634a14dbd8b3139daba36e6e65652b9d047d0134dcc38a638d311f8e18972a"
+    },
+    {
+      "path": "vendor/navajo_egp/session.py",
+      "bytes": 3887,
+      "sha256": "bf42816ae61452befe63160efae54fa2fbf7cb79f77c5dc90571cc97d61c4ff4"
+    },
+    {
+      "path": "vendor/navajo_egp/streaming.py",
+      "bytes": 4949,
+      "sha256": "a684983d21fd9cf7d6b7f263301bde7d264aa10200c9eba804f3c620adfaf5cc"
+    }
+  ]
+}

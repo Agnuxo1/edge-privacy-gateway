@@ -1,0 +1,103 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "entry": [
+  {
+   "resource": {
+    "resourceType": "Patient",
+    "id": "jhe-10457",
+    "identifier": [
+     {
+      "system": "urn:ucsf:mrn",
+      "value": "MRN-4471902"
+     }
+    ],
+    "name": [
+     {
+      "family": "Okafor",
+      "given": [
+       "Daniel"
+      ]
+     }
+    ],
+    "telecom": [
+     {
+      "system": "phone",
+      "value": "+1 415 555 0142"
+     }
+    ],
+    "birthDate": "1957-03-14",
+    "address": [
+     {
+      "line": [
+       "1220 Valencia St"
+      ],
+      "city": "San Francisco",
+      "postalCode": "94110"
+     }
+    ]
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "subject": {
+     "reference": "Patient/jhe-10457"
+    },
+    "code": {
+     "coding": [
+      {
+       "system": "https://w3id.org/openmhealth",
+       "code": "omh:blood-pressure:4.0"
+      }
+     ]
+    },
+    "valueAttachment": {
+     "contentType": "application/json",
+     "data": "eyJoZWFkZXIiOiB7InV1aWQiOiAiNmYxYzJhOWUtM2I0ZC00ZTVmLThhN2ItOWMwZDFlMmYzYTRiIiwgInNjaGVtYV9pZCI6IHsibmFtZXNwYWNlIjogIm9taCIsICJuYW1lIjogImJsb29kLXByZXNzdXJlIiwgInZlcnNpb24iOiAiNC4wIn0sICJzb3VyY2VfY3JlYXRpb25fZGF0ZV90aW1lIjogIjIwMjYtMTAtMjBUMDc6NDI6MDBaIn0sICJib2R5IjogeyJzeXN0b2xpY19ibG9vZF9wcmVzc3VyZSI6IHsidmFsdWUiOiAxNjIsICJ1bml0IjogIm1tSGcifSwgImRpYXN0b2xpY19ibG9vZF9wcmVzc3VyZSI6IHsidmFsdWUiOiA5OCwgInVuaXQiOiAibW1IZyJ9LCAiZWZmZWN0aXZlX3RpbWVfZnJhbWUiOiB7ImRhdGVfdGltZSI6ICIyMDI2LTEwLTIwVDA3OjQwOjAwWiJ9LCAidXNlcl9ub3RlcyI6ICJGZWx0IGRpenp5IGFmdGVyIHdhbGtpbmcgdGhlIGRvZyB3aXRoIG15IG5laWdoYm9yIFJvc2EgRGVsZ2Fkby4gVG9vayBsaXNpbm9wcmlsIDIwIG1nIGxhdGUuIn19"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "subject": {
+     "reference": "Patient/jhe-10457"
+    },
+    "code": {
+     "coding": [
+      {
+       "system": "https://w3id.org/openmhealth",
+       "code": "omh:blood-glucose:3.0"
+      }
+     ]
+    },
+    "valueAttachment": {
+     "contentType": "application/json",
+     "data": "eyJoZWFkZXIiOiB7InV1aWQiOiAiMGI5ZThkN2MtNmE1Zi00ZTNkLTJjMWItMGE5ZjhlN2Q2YzViIiwgInNjaGVtYV9pZCI6IHsibmFtZXNwYWNlIjogIm9taCIsICJuYW1lIjogImJsb29kLWdsdWNvc2UiLCAidmVyc2lvbiI6ICIzLjAifX0sICJib2R5IjogeyJibG9vZF9nbHVjb3NlIjogeyJ2YWx1ZSI6IDIxNCwgInVuaXQiOiAibWcvZEwifSwgInRlbXBvcmFsX3JlbGF0aW9uc2hpcF90b19tZWFsIjogImZhc3RpbmciLCAiZWZmZWN0aXZlX3RpbWVfZnJhbWUiOiB7ImRhdGVfdGltZSI6ICIyMDI2LTEwLTIxVDA2OjU1OjAwWiJ9fX0="
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Communication",
+    "status": "completed",
+    "subject": {
+     "reference": "Patient/jhe-10457"
+    },
+    "payload": [
+     {
+      "contentString": null
+     }
+    ],
+    "note": [
+     {
+      "text": "Message from daughter Grace Okafor (grace.okafor@example.org, 415-555-0199): Dad missed his 10/18/2026 follow-up with Dr. Lena Park; his SSN 512-44-9821 was on the clinic form. BP log attached, 162/98 mmHg this morning."
+     }
+    ]
+   }
+  }
+ ]
+}
