@@ -35,7 +35,7 @@ Known limitation shown by the demo itself: a first name that is neither in the l
 - Microsoft Presidio (spaCy `en_core_web_lg`), GLiNER (`gretelai/gretel-gliner-bi-small-v1.0`, fp32 and dynamic int8);
 - `nvidia/gliner-PII` only as a reference: it was trained on Nemotron-PII, so its Nemotron numbers are contaminated.
 
-Data: NVIDIA Nemotron-PII (CC BY 4.0) health domains, planned full test (7,058 synthetic documents), three disjoint
+Data: NVIDIA Nemotron-PII (CC BY 4.0) health domains, planned full test (7, 058 synthetic documents), three disjoint
 partitions (mean ± sd); Gretel `pii-masking-en-v1` (Apache-2.0) health domains (403 documents) as an out-of-distribution check.
 NAVAJO-v2 rules and its name lexicon were developed only on the Nemotron train split. Thresholds of Presidio and GLiNER were
 picked on 300 train documents. Metrics: character recall of HIPAA Safe Harbor identifiers, precision, F2, full-entity recall,
@@ -45,19 +45,19 @@ The offline synthetic demo and its tests run with the bundled frozen training le
 
 | Stage | Recorded result | Evidence scope |
 |---|---|---|
-| E001,NAVAJO v1 | F2 0.603,precision0.374; one detector crash |1500train documents |
-| E002,clinical layer | F2 0.930 | held-out train partition |
-| E003,frozen v2 | F2 **0.943**,precision0.926,clinical values retained0.974; no-lexicon F2 0.894 | Development partition; selection evidence |
-| E004,plumbing smoke | v2 F2 **0.909** vs v1 **0.550** |300test documents; exploratory exposure, not untouched final test |
+| E001, NAVAJO v1 | F2 0.603, precision 0.374; one detector crash |1500 train documents |
+| E002, clinical layer | F2 0.930 | held-out train partition |
+| E003, frozen v2 | F2 **0.943**, precision 0.926, clinical values retained0.974; no-lexicon F2 0.894 | Development partition; selection evidence |
+| E004, plumbing smoke | v2 F2 **0.909** vs v1 **0.550** |300 test documents; exploratory exposure, not untouched final test |
 | E005 | Completed: 200 documents per dataset, all methods and ablations retained below | Exploratory quick comparison, not full-test confirmation |
-| E006 | Full benchmark running, job4ed488c393f24a72 | No complete full-test result yet |
+| E006 | Full benchmark running, job 4ed488c393f24a72 | No complete full-test result yet |
 
-Full results must replace this status only after the actual outputs are checked. Test has already been inspected on300documents, so a later full test is not described as wholly unseen. These are public **synthetic** health records, not real patient validation. No clinical deployment, safety or regulatory compliance is established.
+Full results must replace this status only after the actual outputs are checked. Test has already been inspected on 300 documents, so a later full test is not described as wholly unseen. These are public **synthetic** health records, not real patient validation. No clinical deployment, safety or regulatory compliance is established.
 
 
 ### Completed server pilot, 29 October
 
-| Method | Nemotron F2,mean±SD | Gretel F2,mean±SD | Nemotron median ms |
+| Method | Nemotron F2, mean ± SD | Gretel F2, mean ± SD | Nemotron median ms |
 |---|---:|---:|---:|
 | NAVAJO v1 |0.562±0.030 |0.665±0.023 |0.3 |
 | **NAVAJO v2** |**0.910±0.011** |**0.879±0.025** |0.7 |
@@ -66,8 +66,8 @@ Full results must replace this status only after the actual outputs are checked.
 | **v2 + GLiNER Gretel** |**0.933±0.012** |**0.960±0.016** |666.6 |
 | GLiNER Gretel int8 |0.262±0.009 |0.624±0.033 |382.6 |
 
-These are200documents per dataset, partitioned into three disjoint UID groups.
-SD is between these data partitions, not independent training seeds or a95%confidence interval.
+These are 200 documents per dataset, partitioned into three disjoint UID groups.
+SD is between these data partitions, not independent training seeds or a 95% confidence interval.
 The measured v2-versus-v1 improvement is positive on both datasets. The hybrid improves F2
 but has a large latency/memory cost. Int8 markedly degrades the standalone detector in this
 pilot. [Every method, ablation, metric, latency and crash count](results/quick-20261029.txt)
