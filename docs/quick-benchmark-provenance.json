@@ -1,0 +1,13 @@
+{
+  "job_id": "cb570df1361643ee",
+  "state": "succeeded",
+  "documents_per_dataset": 200,
+  "datasets": [
+    "Nemotron-PII synthetic health test",
+    "Gretel pii-masking-en-v1 synthetic health test"
+  ],
+  "source_artifact": "results/summary.txt",
+  "artifact_sha256": "f370c55f2673401d28118a5689985ed19bdbd1ed6570aa1610fc420a5eb1ba81",
+  "scope": "exploratory pilot; three UID partitions, not three training seeds; full test ongoing",
+  "checked_utc": "2026-10-29T07:18:19.374097+00:00"
+}
