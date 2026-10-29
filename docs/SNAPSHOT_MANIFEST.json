@@ -1,5 +1,5 @@
 {
-  "source_snapshot_utc": "2026-10-29T07:21:20.115872+00:00",
+  "source_snapshot_utc": "2026-10-29T08:39:37.347349+00:00",
   "files": [
     {
       "path": ".github/workflows/release.yml",
@@ -97,6 +97,76 @@
       "sha256": "3b83c0c6cf0417e83bb84efef3f5103a6ee6e4fe33467f2b82bd66b48906ef52"
     },
     {
+      "path": "docs/readme/01-banner.gif",
+      "bytes": 255774,
+      "sha256": "9d249f09593de4c2e97cb2a59db4fabcd605e3ca87eee2fffa0bc36b3cded1b3"
+    },
+    {
+      "path": "docs/readme/02-background.gif",
+      "bytes": 182843,
+      "sha256": "6e320cf597f684ae9b9dc4cf075c0ea6d847b9d1a2cdd5dc2af788eca7cfaf15"
+    },
+    {
+      "path": "docs/readme/03-flow.gif",
+      "bytes": 1029579,
+      "sha256": "db1591631e59182bc11445c0d8d66eed9c6a1665759bfbfe87342beca01825e5"
+    },
+    {
+      "path": "docs/readme/04-demo-run.gif",
+      "bytes": 240527,
+      "sha256": "74ffb7c083ad4652633cf3e87a4334c0357fe20482c017614c2378a62fa05111"
+    },
+    {
+      "path": "docs/readme/05-treatment.gif",
+      "bytes": 767775,
+      "sha256": "4f8e5d74a19b743d9084aca7ffd987cf92b4e74586942737b7012fda01d1ba4c"
+    },
+    {
+      "path": "docs/readme/06-live-example.gif",
+      "bytes": 551161,
+      "sha256": "d5d1a2484147d331c4c4a6aad97adb257b87a00f9cec38a5187d7d9b47e3517b"
+    },
+    {
+      "path": "docs/readme/07-benchmark-design.gif",
+      "bytes": 571787,
+      "sha256": "57a3d1844c3e7237c1682a371327ab8f17daa77c4ea281ae17123505e95b593f"
+    },
+    {
+      "path": "docs/readme/08-stages.gif",
+      "bytes": 722139,
+      "sha256": "05c5da5f61bc91bbbaed9e2963feb6f9c4c9fe399d4472fb080c397a4eda03af"
+    },
+    {
+      "path": "docs/readme/09-pilot-f2.gif",
+      "bytes": 461455,
+      "sha256": "1f9ea862961311f0defd7c748fe044a7cae2fe8c76ae4cbe7e094d2975c2387e"
+    },
+    {
+      "path": "docs/readme/10-latency.gif",
+      "bytes": 327837,
+      "sha256": "7e9400d21222bad8567467330ca0a5af9edd2a5db739ef4304adc67d381ee9df"
+    },
+    {
+      "path": "docs/readme/11-ablations.gif",
+      "bytes": 485188,
+      "sha256": "112f5201241dd6f0a9f59ab05342a738914ceca1c79bfd8abe1a7ab09575e928"
+    },
+    {
+      "path": "docs/readme/12-applications.gif",
+      "bytes": 660617,
+      "sha256": "1ef7d8a915f6b5c323e89ca19b58d7ce52432b8e818523f0c3b87744e89de504"
+    },
+    {
+      "path": "docs/readme/13-improvements.gif",
+      "bytes": 493592,
+      "sha256": "376c8193e232a26bd5be3b18fe1709bf9f07a1cf40d456a7fac75fa0230ba2f4"
+    },
+    {
+      "path": "docs/readme/14-roadmap.gif",
+      "bytes": 441635,
+      "sha256": "88d8b7715037239f56efa4d53b5ee1728ee922c571a1529beea2ada3c104e7f4"
+    },
+    {
       "path": "docs/RESEARCH_PROTOCOL.md",
       "bytes": 1012,
       "sha256": "75644869eb164766415151e4d6983e9af5f0659dd85b48fe43c7f4c2a8b29764"
@@ -118,8 +188,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5859,
-      "sha256": "304ef4cc177c50b31dc3b6b60706c9fda0ea2986872b83400ab9726f652ec91f"
+      "bytes": 20253,
+      "sha256": "bf75a7bea5d1d01436dd32bbf296e3420e377432736a7c86407adf880416e7c4"
     },
     {
       "path": "requirements-demo.txt",
