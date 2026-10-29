@@ -1,15 +1,15 @@
 {
-  "source_snapshot_utc": "2026-10-29T07:07:38.882056+00:00",
+  "source_snapshot_utc": "2026-10-29T07:12:18.803186+00:00",
   "files": [
     {
       "path": ".github/workflows/release.yml",
-      "bytes": 472,
-      "sha256": "f87bc17fe5282fa46bfab41ceb0b5bde29e2e722d8f489deb0bfdaf62a2c08ab"
+      "bytes": 455,
+      "sha256": "4abe775cbac527a7e692f1589ae99aaacee3d725fb0c1095b1166efa25443b37"
     },
     {
       "path": ".gitignore",
-      "bytes": 135,
-      "sha256": "22d4eaee305e67584737d9b3ca7f7c1bb8c30cb15b2e8e3875d3d5cfe09ed358"
+      "bytes": 124,
+      "sha256": "e617ae056bcea7553fb3bd605e137457155b63faaa5b880fe5d5bc2495f2e28e"
     },
     {
       "path": "assets/lexicon_train.json",
@@ -18,8 +18,8 @@
     },
     {
       "path": "assets/README.md",
-      "bytes": 439,
-      "sha256": "871a57a245d42dad214c6588a59fc7011eb843296ec0e22331e8f49f1e5f79d0"
+      "bytes": 438,
+      "sha256": "ed1ac383a1d382bee303aa325b0502e3507b50832830e1e860c96a32b0dcc9ee"
     },
     {
       "path": "bench/common.py",
@@ -28,8 +28,8 @@
     },
     {
       "path": "bench/dev_v1.py",
-      "bytes": 616,
-      "sha256": "8e5c2b51e1ba4b4e2b33af3a1071e39c7cf97dd1f70d906f1ad8f4ecb22026bb"
+      "bytes": 604,
+      "sha256": "0e4563a89b853897d941fb3e39a5b03e2f10a8d90a56acc0027aab528d176242"
     },
     {
       "path": "bench/dev_v2.py",
@@ -48,8 +48,8 @@
     },
     {
       "path": "bench/run_method.py",
-      "bytes": 5661,
-      "sha256": "67e951e8eda02561b29ac3f98072c8ba2771c7aa372f865538dd01f6c88fec51"
+      "bytes": 5520,
+      "sha256": "ca259df2e58192dba3ca2dc69b677074f6740c29ee17ca6c8ea73a0410c9bc39"
     },
     {
       "path": "bench/score.py",
@@ -63,8 +63,8 @@
     },
     {
       "path": "demo/gateway.py",
-      "bytes": 5081,
-      "sha256": "d9633ca6104ccf561a675ad3104f93a9b54a8cdc68543ddcc64d9285a435a643"
+      "bytes": 4964,
+      "sha256": "9dd708179d95db502a236ef87ace16cfc094ed460023c0bada115e8ea81b8e42"
     },
     {
       "path": "demo/make_sample.py",
@@ -78,8 +78,8 @@
     },
     {
       "path": "demo/sample_bundle.json",
-      "bytes": 3064,
-      "sha256": "f188f090b825503e98d9ca685361aea87abfae7baef2ff6c814661c81ca86b84"
+      "bytes": 2962,
+      "sha256": "e58a840bb07635a6528645ccaed94917750d4728ee9fc8469c443c24ecd89c90"
     },
     {
       "path": "demo/test_gateway.py",
@@ -88,13 +88,13 @@
     },
     {
       "path": "docs/PROJECT_STATUS.json",
-      "bytes": 257,
-      "sha256": "e882daacef2431f918380052b39f60e792fcfa168ebe4c8fbc09baf9481b2d2b"
+      "bytes": 250,
+      "sha256": "10edf1048e41496e063cf36d951c7a218649a8a9d56242215fc72c2e1abff8bd"
     },
     {
       "path": "docs/RESEARCH_PROTOCOL.md",
-      "bytes": 1019,
-      "sha256": "68d8a6ee01a9b892000e4b4b270da8c38d5ebe9fc504a708c576fe81b05f6b15"
+      "bytes": 1012,
+      "sha256": "75644869eb164766415151e4d6983e9af5f0659dd85b48fe43c7f4c2a8b29764"
     },
     {
       "path": "experiments/LOG.md",
@@ -103,8 +103,8 @@
     },
     {
       "path": "LICENSE",
-      "bytes": 1106,
-      "sha256": "3e678775bdc901ec198d173d64cffd4d5998a5491fd67899ce3067e93c842ab5"
+      "bytes": 1085,
+      "sha256": "afa3de7e3edd0ad130afc2f31d1f8dbc0a4bda40899f7ecce9c032310e4701c5"
     },
     {
       "path": "NOTICE",
@@ -113,8 +113,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4568,
-      "sha256": "04da8b61f052d925986dc675f0af29de902d6876c379835bc39064f00a3f08e3"
+      "bytes": 4509,
+      "sha256": "e40b5e3407c170ca07e37739a118ccaab1c52e73ed0cadd37da281a75d071043"
     },
     {
       "path": "requirements-demo.txt",
@@ -123,13 +123,13 @@
     },
     {
       "path": "tools/check_release.py",
-      "bytes": 1341,
-      "sha256": "64ff3f8ad74db8a5fc1990965d366240f7930f599ab3113bc7e2a439226b1c3a"
+      "bytes": 1318,
+      "sha256": "c0370e075a1b624184c722b2516a79e046a421f8085d08485cb082bdb9b0c124"
     },
     {
       "path": "tools/update_manifest.py",
-      "bytes": 649,
-      "sha256": "1f3fba6a0e3c5f0398450ef6ea6c2734fc2020264a0e6253fb0f10515b0e76df"
+      "bytes": 653,
+      "sha256": "0538a3dbdfe064c5ffdf44ea142d78df0b6af0819cbfb8cb0cdc686c26196595"
     },
     {
       "path": "vendor/navajo_egp/__init__.py",
