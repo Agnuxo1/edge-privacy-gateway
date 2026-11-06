@@ -1,5 +1,5 @@
 {
-  "source_snapshot_utc": "2026-10-29T08:39:37.347349+00:00",
+  "source_snapshot_utc": "2026-11-06T16:08:08.658860+00:00",
   "files": [
     {
       "path": ".github/workflows/release.yml",
@@ -87,6 +87,11 @@
       "sha256": "5443d13c1ca15d0cc748fc08a05e4b3db5021db2c4c669f25a6facf2f9494b3e"
     },
     {
+      "path": "docs/full-benchmark-provenance.json",
+      "bytes": 1285,
+      "sha256": "edd1d99aa86f75875d27aa70b2551599378df3ad2f374827054d8081f4f3f836"
+    },
+    {
       "path": "docs/PROJECT_STATUS.json",
       "bytes": 250,
       "sha256": "10edf1048e41496e063cf36d951c7a218649a8a9d56242215fc72c2e1abff8bd"
@@ -167,14 +172,19 @@
       "sha256": "88d8b7715037239f56efa4d53b5ee1728ee922c571a1529beea2ada3c104e7f4"
     },
     {
+      "path": "docs/readme/15-full-test.png",
+      "bytes": 170561,
+      "sha256": "4884349d09e12a9a222ed34e927c183cb09f87d3397b7f63256f629c28b320f6"
+    },
+    {
       "path": "docs/RESEARCH_PROTOCOL.md",
       "bytes": 1012,
       "sha256": "75644869eb164766415151e4d6983e9af5f0659dd85b48fe43c7f4c2a8b29764"
     },
     {
       "path": "experiments/LOG.md",
-      "bytes": 2396,
-      "sha256": "943bfe7d15650fd29459830de0b7f9f9ac520f5bf6676a7f8d543b2c35582d85"
+      "bytes": 2653,
+      "sha256": "c009e6cc8f9bf09e34fc51f2c533a9967664b298b36e54896f4e25bb3e6830c8"
     },
     {
       "path": "LICENSE",
@@ -188,13 +198,23 @@
     },
     {
       "path": "README.md",
-      "bytes": 20253,
-      "sha256": "bf75a7bea5d1d01436dd32bbf296e3420e377432736a7c86407adf880416e7c4"
+      "bytes": 24832,
+      "sha256": "7b9c5fc16bd96ea5867435a7827cbf96566e8864433f7ffa23484aa6ea2fd4fa"
     },
     {
       "path": "requirements-demo.txt",
       "bytes": 7,
       "sha256": "8004a972c3d5c274d8c808e8d8afe03b9aca8af8eebf3df4298f114d8008b754"
+    },
+    {
+      "path": "results/full-20261029.json",
+      "bytes": 75771,
+      "sha256": "9f02c69f25bc98546106c11b13eb33af4f94b8091e6d3de33ff34fbb951676a0"
+    },
+    {
+      "path": "results/full-20261029.md",
+      "bytes": 5570,
+      "sha256": "87b09ac3dab0794281cdce43600f2f810cb9f7c6e3194226c5c46bff270b2d82"
     },
     {
       "path": "results/quick-20261029.txt",

@@ -1,0 +1,31 @@
+{
+  "job_id": "4ed488c393f24a72",
+  "state": "succeeded",
+  "exit_code": 0,
+  "lane": "cpu",
+  "threads": 2,
+  "datasets": {
+    "Nemotron-PII synthetic health test": 7058,
+    "Gretel pii-masking-en-v1 synthetic health test": 403
+  },
+  "partitions": "three disjoint UID groups, not training seeds",
+  "artifacts": {
+    "results/full-20261029.md": "87b09ac3dab0794281cdce43600f2f810cb9f7c6e3194226c5c46bff270b2d82",
+    "results/full-20261029.json": "9f02c69f25bc98546106c11b13eb33af4f94b8091e6d3de33ff34fbb951676a0"
+  },
+  "code_sha256": {
+    "navajo_v2.py": "74498792a5471ec7c86749d422a41a0cd6df57780f580446205523acad78a075",
+    "score.py": "3cfc1ca8d4db125dd6114d29d85687fd36967bc71e308efdabb012d0c380af2d",
+    "common.py": "6326808877e3ce07c232bc9270b4367db4edf7d4257cff59623b38f8aade9947"
+  },
+  "code_note": "bench/run_method.py differs from the job only in the lexicon path, assets/ here and data/sub/ in the job; both lexicons are identical.",
+  "checked_utc": "2026-11-06",
+  "checks": {
+    "navajo_v2_spans_reproduced_locally": {
+      "Nemotron": "7058 of 7058",
+      "Gretel": "403 of 403"
+    },
+    "stored_predictions_rescored": "2592 numeric values, maximum difference 0, timing fields excluded"
+  },
+  "scope": "public synthetic data; no clinical validation"
+}
